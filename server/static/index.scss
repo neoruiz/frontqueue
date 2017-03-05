@@ -1,0 +1,81 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 1.5rem;
+    margin: .5rem .2rem;
+    border: solid #EEE 1px;
+    cursor: pointer;
+
+    @media all and ( max-width : 500px ){
+        padding: .5rem;
+        font-size: 1.2rem;
+    }
+}
+
+h2 {
+    text-align: center;
+    color: #5a8ddd;
+    text-transform: uppercase;
+}
+
+.header-logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.queue-list {
+
+}
+
+.queue-list__guest-actions {
+    margin-left: auto;
+    display: flex;
+
+    @media all and ( max-width : 500px ){
+        margin-left: 0;
+    }
+}
+
+.queue-list__item {
+    display: flex;
+    align-items: center;
+
+    .name {
+        @media all and ( max-width : 500px ){
+            margin-bottom: .4rem;
+        }
+    }
+
+    @media all and ( max-width : 500px ){
+        flex-direction: column;
+    }
+}
+
+.queue-list__guest-action-item {
+    padding: .5rem;
+    margin: .2rem;
+    border: solid 1px #f3f3f3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    .label {
+        font-size: .8rem;
+        text-transform: uppercase;
+        margin-top: .2rem;
+    }
+}
+
+
+
+.queue-list__guest-action-item .fa {
+    margin-right: .2rem;
+}
