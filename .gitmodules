@@ -3,4 +3,4 @@
 	url = https://github.com/BlinkID/blinkid-android.git
 [submodule "BlinkID/src/ios/blinkid-ios"]
 	path = BlinkID/src/ios/blinkid-ios
-	url = git@github.com:BlinkID/blinkid-ios.git
+url=https://github.com/BlinkID/blinkid-ios.git
